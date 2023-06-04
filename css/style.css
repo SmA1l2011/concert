@@ -14,14 +14,14 @@ header {
 
 }
 
-.wrapper {
+header .wrapper {
     display: flex;
     padding-top: 217px;
     width: 1180px;
     margin: 0 auto;
 }
 
-.wrapper img {
+header .wrapper img {
     width: 348px;
     height: 460px;
 }
@@ -146,4 +146,81 @@ h1 {
     border: 3px solid #8bd976;
     left: 2%;
     top: 100%;
+}
+
+.green-info {
+    background-image: url(../img/Background_two.jpg);
+    height: 848px;
+}
+
+.green-info .wrapper {
+    display: flex;
+    padding-top: 217px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.ul-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 50px;
+}
+
+.ul-info ul {
+    margin-bottom: 65px;
+}
+
+.ul-info p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+    width: 444px;
+}
+
+.ul-info h3 {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.green-info h2 {
+    font-size: 79px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+}
+
+.green-ul p {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.green-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 469px;
+    margin-right: 190px;
+}
+
+.line {
+    position: relative;
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    width: 446px;
+    height: 3px;
+    background-color: #000000;
+    bottom: 160%;
 }
