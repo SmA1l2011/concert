@@ -10,13 +10,13 @@ ul {
 
 header {
     background: url(../img/Background.jpg);
-    height: 847px;
 
 }
 
 header .wrapper {
     display: flex;
     padding-top: 217px;
+    padding-bottom: 165px;
     width: 1180px;
     margin: 0 auto;
 }
@@ -150,12 +150,12 @@ h1 {
 
 .green-info {
     background-image: url(../img/Background_two.jpg);
-    height: 848px;
 }
 
 .green-info .wrapper {
     display: flex;
     padding-top: 217px;
+    padding-bottom: 172px;
     width: 1180px;
     margin: 0 auto;
 }
@@ -212,15 +212,93 @@ h1 {
     margin-right: 190px;
 }
 
-.line {
-    position: relative;
+.concert-info {
+    background-image: url(../img/Background_three.jpg);
 }
 
-.line::before {
-    content: "";
-    position: absolute;
-    width: 446px;
-    height: 3px;
-    background-color: #000000;
-    bottom: 160%;
+.concert-info .wrapper {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 180px;
+    padding-bottom: 70px;
+}
+
+.concert-info ul {
+    display: inline-block;
+    height: 320px;
+    width: 527px;
+}
+
+.concert-info h2 {
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.concert-info .p {
+    width: 456px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.concert-info h3 {
+    display: inline-block;
+    font-size: 35px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.concert-info h4 {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8bd976;
+    font-weight: 400;
+    font-family: "Overpass";
+}
+
+.concert-info p {
+    width: 136px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+}
+
+.title-text {
+    margin-bottom: 105px;
+}
+
+.images-info {
+    margin-right: 122px;
+}
+
+.img-text figcaption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-text figure {
+    width: 45%;
+    margin-bottom: 80px;
+}
+
+.img-text figure img {
+    margin-bottom: 35px;
+}
+
+.img-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
