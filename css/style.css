@@ -334,7 +334,7 @@ h1 {
     height: 24px;
     border: 3px solid #000000;
     border-radius: 12px;
-    margin: 15px    ;
+    margin: 15px;
 }
 
 .text-new h2 span:nth-child(2) {
@@ -398,9 +398,324 @@ h1 {
     font-family: "Overpass";
     text-align: center;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .new-buttons a:hover {
     background-color: #000;
     color: #e5e5e5;
+}
+
+.artist {
+    background-image: url(../img/Backgraound-fife.jpg);
+}
+
+.artist .wrapper {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.artist-flex {
+    display: flex;
+}
+
+.text-artist p {
+    width: 256px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: right;
+    flex-direction: column;
+}
+
+.text-artist {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 73px;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.text-artist::before {
+    content: "";
+    background-image: url(../img/star-img.png);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: -18%;
+    right: -1%;
+}
+
+.title-artist img {
+    display: inline-block;
+    height: 616px;
+}
+
+.title-artist h2 {
+    padding-top: 225px;
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.title-artist p {
+    width: 490px;
+    margin-bottom: 37px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.title-artist a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.title-artist .button {
+    display: inline-block;
+    margin-bottom: 185px;
+    min-width: 133px;
+    border-radius: 17px;
+    background-color: #8bd976;
+    border: 5px solid #8bd976;
+    transition: 0.5s;
+}
+
+.title-artist .button:hover {
+    background-color: #000;
+    color: #8bd876;
+}
+
+.title-artist {
+    display: flex;
+}
+
+.time-star h3 {
+    padding-left: 70px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+    position: relative;
+}
+
+.time-star h3::before {
+    content: "";
+    background-image: url(../img/star-img.png);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: -30%;
+    left: -2%;
+}
+
+.time-star p {
+    width: 349px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.ticket-shop {
+    background-image: url(../img/Backgraond-six.jpg);
+    height: 847px;
+}
+
+.ticket-shop .wrapper {
+    padding-top: 90px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.ticket-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.date-ticket {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticket-info {
+    width: 30%;
+}
+
+.ticket-info h3 {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ticket-info p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: left;
+    margin-bottom: 27px;
+}
+
+.ticket-info .button {
+    display: inline-block;
+    background-color: #000;
+    border: solid 3px #000;
+    padding: 5px;
+    min-width: 133px;
+    border-radius: 17px;
+    margin-bottom: 85px;
+    transition: 0.5s;
+}
+
+.ticket-info .button:hover {
+    color: #000;
+    background-color: #8bd976;
+}
+
+.ticket-info a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8bd976;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.ticket-title h3 {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.ticket-title h2 {
+    font-size: 79px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.clothing-shop {
+    background-image: url(../img/Background-seven.jpg);
+}
+
+.clothing-shop .wrapper {
+    padding-top: 95px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.clothing-title {
+    display: flex;
+    justify-content: center;
+}
+
+.clothing-title h2 {
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.clothing-p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.clothing-p p {
+    width: 494px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.shop-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop-info figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8bd976;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-bottom: 110px;
+}
+
+.shop-info figcaption a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8bd976;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: center;
+}
+
+.shop-info figcaption .button {
+    border-radius: 17px;
+    background-color: #000000;
+    border: 3px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    min-width: 133px;
+    transition: 0.5s;
+}
+
+.shop-info figcaption .button:hover {
+    color: #000;
+    background-color: #8bd976;
+}
+
+.shop-info figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-info figure h3 {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
 }
