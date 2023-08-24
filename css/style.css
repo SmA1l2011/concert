@@ -625,6 +625,7 @@ h1 {
 
 .clothing-shop {
     background-image: url(../img/Background-seven.jpg);
+    height: 1864px;
 }
 
 .clothing-shop .wrapper {
@@ -718,4 +719,45 @@ h1 {
     font-weight: 400;
     font-family: "Overpass";
     text-align: left;
+}
+
+.green-footer {
+    background-color: #8bd976;
+    height: 310px;
+}
+
+.green-footer .wrapper {
+    padding-top: 85px;
+    padding-left: 130px;
+    padding-right: 225px;
+}
+
+.title-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.title-footer h3 {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+
+.title-footer p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Overpass";
+}
+
+.copy {
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
 }
