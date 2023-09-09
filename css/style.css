@@ -771,15 +771,11 @@ hr {
         max-width: 1120px;
         margin: 0 auto;
     }
-}
 
-@media screen and (max-width:1270px) {
     .text-new h2::before {
         left: 90%;
     }
-}
 
-@media screen and (max-width:1210px) {
     .text-new h2::before {
         left: 70%;
         top: -35%;
@@ -789,46 +785,34 @@ hr {
         top: -70%;
         right: 2%;
     }
-}
 
-@media screen and (max-width:1170px) {
     .images-info {
         margin-right: 10px;
     }
-}
 
-@media screen and (max-width:1090px) {
     .time {
         padding-left: 20px;
     }
-}
 
-@media screen and (max-width:1060px) {
     .shop-info {
         display: flex;
         justify-content: center;
     }
-}
 
-@media screen and (max-width:1035px) {
     .green-ul {
         margin-right: 100px;
     }
 }
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width:1024px) {
     .header-title {
         margin-right: 0px;
     }
-}
 
-@media screen and (max-width:1010px) {
     .img-new {
         margin-right: 0px;
     }
-}
 
-@media screen and (max-width:970px) {
     header .wrapper img {
         width: 248px;
         height: 300px;
@@ -841,15 +825,11 @@ hr {
     .time {
         padding-top: 70px;
     }
-}
 
-@media screen and (max-width:965px) {
     .title-artist img {
         width: 400px;
     }
-}
 
-@media screen and (max-width:950px) {
     .green-ul {
         margin-right: 50px;
     }
@@ -861,16 +841,12 @@ hr {
     .text-new {
         padding-top: 0px;
     }
-}
 
-@media screen and (max-width:900px) {
     .green-ul {
         margin-right: 0px;
         padding-top: 20px;
     }
-}
 
-@media screen and (max-width:890px) {
     .title-artist h2 {
         padding-top: 0px;
     }
@@ -878,9 +854,7 @@ hr {
     .title-artist img {
         width: 300px;
     }
-}
 
-@media screen and (max-width:870px) {
     header .wrapper {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -907,21 +881,15 @@ hr {
         left: 2%;
         top: -40%;
     }
-}
 
-@media screen and (max-width:850px) {
     hr {
         width: 275px;
     }
-}
 
-@media screen and (max-width:820px) {
     .ticket-shop {
         background: #8bd976;
     }
-}
 
-@media screen and (max-width:800px) {
     .title-artist {
         display: block;
         text-align: center;
@@ -932,7 +900,7 @@ hr {
     }
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:768px) {
     .img-text figcaption {
         display: block;
     }
@@ -946,15 +914,11 @@ hr {
         flex-direction: column;
         align-items: center;
     }
-}
 
-@media screen and (max-width:730px) {
     .img-new img {
         width: 300px;
     }
-}
 
-@media screen and (max-width:670px) {
     .green-info .wrapper {
         display: block;
     }
@@ -971,9 +935,7 @@ hr {
     .ul-info {
         flex-direction: row;
     }
-}
 
-@media screen and (max-width:620px) {
     .ticket-info {
         width: 40%;
     }
@@ -984,7 +946,7 @@ hr {
     }
 }
 
-@media screen and (max-width:590px) {
+@media screen and (max-width:600px) {
     .new-info .wrapper {
         display: block;
         text-align: center;
@@ -1003,9 +965,7 @@ hr {
         top: -25%;
         left: 92%;
     }
-}
 
-@media screen and (max-width:570px) {
     .shop-info figure{
         min-width: 100px;
     }
@@ -1014,9 +974,7 @@ hr {
         top: -35%;
         left: 82%;
     }
-}
 
-@media screen and (max-width:535px) {
     .time {
         max-width: 300px;
         margin: 0 auto;
@@ -1026,15 +984,11 @@ hr {
     .time .before {
         margin-bottom: 25px;
     }
-}
 
-@media screen and (max-width:500px) {
     .title-artist p {
         max-width: 350px;
     }
-}
 
-@media screen and (max-width:480px) {
     .text-new h2 span:nth-child(1) {
         width: 20%;
     }
@@ -1083,15 +1037,11 @@ hr {
     .ul-info {
         display: block;
     }
-}
 
-@media screen and (max-width:470px) {
     .concert-info .p {
         max-width: 320px;
     }
-}
 
-@media screen and (max-width:450px) {
     .title-footer ul {
         margin-bottom: 20px;
     }
@@ -1123,7 +1073,7 @@ hr {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:425px) {
     .green-info h2 {
         max-width: 320px;
     }
@@ -1162,9 +1112,5 @@ hr {
 
     .clothing-title h2 {
         font-size: 59px;
-    }
-
-    .green-info {
-        
     }
 }
