@@ -9,21 +9,23 @@ ul {
 }
 
 header {
-    background: url(../img/Background.jpg);
-
+    background:#000 url(../img/Background.jpg);
+    background-size: cover;
 }
 
 header .wrapper {
-    display: flex;
     padding-top: 217px;
     padding-bottom: 165px;
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
 header .wrapper img {
     width: 348px;
-    height: 460px;
+}
+
+.header-info {
+    display: flex;
 }
 
 .header-title {
@@ -149,14 +151,15 @@ h1 {
 }
 
 .green-info {
-    background-image: url(../img/Background_two.jpg);
+    background: #8bd976 url(../img/Background-two.jpg);
+    background-size: cover;
 }
 
 .green-info .wrapper {
     display: flex;
     padding-top: 217px;
     padding-bottom: 172px;
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -171,6 +174,12 @@ h1 {
     margin-bottom: 65px;
 }
 
+hr {
+    background-color: #000;
+    width: 447px;
+    height: 4px;
+}
+
 .ul-info p {
     font-size: 14px;
     line-height: 19px;
@@ -178,7 +187,7 @@ h1 {
     font-weight: 300;
     font-family: "Overpass";
     text-align: left;
-    width: 444px;
+    max-width: 444px;
 }
 
 .ul-info h3 {
@@ -213,12 +222,13 @@ h1 {
 }
 
 .concert-info {
-    background-image: url(../img/Background_three.jpg);
+    background:#000 url(../img/Background_three.jpg);
+    background-size: cover;
 }
 
 .concert-info .wrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width: 1180px;
+    margin: 0 auto;
     padding-top: 180px;
     padding-bottom: 70px;
 }
@@ -279,10 +289,6 @@ h1 {
     margin-bottom: 105px;
 }
 
-.images-info {
-    margin-right: 122px;
-}
-
 .img-text figcaption {
     display: flex;
     justify-content: space-between;
@@ -295,6 +301,7 @@ h1 {
 
 .img-text figure img {
     margin-bottom: 35px;
+    width: 100%;
 }
 
 .img-text {
@@ -304,12 +311,13 @@ h1 {
 }
 
 .new-info {
-    background-image: url(../img/Background-four.jpg);
+    background: #8bd976 url(../img/Background-four.jpg);
+    background-size: cover;
 }
 
 .new-info .wrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width: 1180px;
+    margin: 0 auto;
     padding-top: 180px;
     padding-bottom: 180px;
     display: flex;
@@ -324,7 +332,7 @@ h1 {
 }
 
 .text-new {
-    width: 448px;
+    max-width: 448px;
     padding-top: 82px;
 }
 
@@ -407,14 +415,15 @@ h1 {
 }
 
 .artist {
-    background-image: url(../img/Backgraound-fife.jpg);
+    background: #000 url(../img/Backgraound-fife.jpg);
+    background-size: cover;
 }
 
 .artist .wrapper {
     padding-top: 112px;
     padding-bottom: 112px;
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .artist-flex {
@@ -448,11 +457,6 @@ h1 {
     height: 75px;
     top: -18%;
     right: -1%;
-}
-
-.title-artist img {
-    display: inline-block;
-    height: 616px;
 }
 
 .title-artist h2 {
@@ -536,14 +540,14 @@ h1 {
 }
 
 .ticket-shop {
-    background-image: url(../img/Backgraond-six.jpg);
-    height: 847px;
+    background: #8bd976 url(../img/Backgraond-six.jpg);
+    background-size: cover;
 }
 
 .ticket-shop .wrapper {
     padding-top: 90px;
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .ticket-title {
@@ -624,14 +628,14 @@ h1 {
 }
 
 .clothing-shop {
-    background-image: url(../img/Background-seven.jpg);
-    height: 1864px;
+    background: #8bd976 url(../img/Background-seven.jpg);
+    background-size: cover;
 }
 
 .clothing-shop .wrapper {
     padding-top: 95px;
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .clothing-title {
@@ -723,13 +727,13 @@ h1 {
 
 .green-footer {
     background-color: #8bd976;
-    height: 310px;
 }
 
 .green-footer .wrapper {
     padding-top: 85px;
-    padding-left: 130px;
-    padding-right: 225px;
+    padding-bottom: 58px;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .title-footer {
@@ -760,4 +764,407 @@ h1 {
     color: #000000;
     font-weight: 400;
     font-family: "Overpass";
+}
+
+@media screen and (max-width:1360px) {
+    .wrapper {
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .text-new h2::before {
+        left: 90%;
+    }
+}
+
+@media screen and (max-width:1210px) {
+    .text-new h2::before {
+        left: 70%;
+        top: -35%;
+    }
+
+    .text-artist::before {
+        top: -70%;
+        right: 2%;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .images-info {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    .time {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .shop-info {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1035px) {
+    .green-ul {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .header-title {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .img-new {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    header .wrapper img {
+        width: 248px;
+        height: 300px;
+    }
+
+    .header-title {
+        padding-top: 0px;
+    }
+
+    .time {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width:965px) {
+    .title-artist img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .green-ul {
+        margin-right: 50px;
+    }
+
+    .img-new img {
+        width: 400px;
+    }
+
+    .text-new {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .green-ul {
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .title-artist h2 {
+        padding-top: 0px;
+    }
+
+    .title-artist img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    header .wrapper {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .header-info {
+        display: block;
+        text-align: center;
+    }
+
+    .header-title {
+        margin: 0 auto;
+    }
+
+    .buttons {
+        margin: 0 auto;
+    }
+
+    .header-title p {
+        text-align: center;
+    }
+
+    .before-two::before {
+        left: 2%;
+        top: -40%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    hr {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .ticket-shop {
+        background: #8bd976;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .title-artist {
+        display: block;
+        text-align: center;
+    }
+
+    .title-artist .button {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .img-text figcaption {
+        display: block;
+    }
+
+    .img-text figure {
+        width: 80%;
+    }
+
+    .img-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .img-new img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .green-info .wrapper {
+        display: block;
+    }
+
+    hr {
+        width: 0;
+        height: 0;
+    }
+
+    .green-ul {
+        margin: 0 auto;
+    }
+
+    .ul-info {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .ticket-info {
+        width: 40%;
+    }
+
+    .date-ticket {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .new-info .wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .text-new {
+        margin: 0 auto;
+    }
+
+    .img-new::before {
+        left: 4%;
+        bottom: -145%;
+    }
+
+    .text-new h2::before {
+        top: -25%;
+        left: 92%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .shop-info figure{
+        min-width: 100px;
+    }
+
+    .text-new h2::before {
+        top: -35%;
+        left: 82%;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .time {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .time .before {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .title-artist p {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .text-new h2 span:nth-child(1) {
+        width: 20%;
+    }
+
+    .text-new h2 span:nth-child(2) {
+        width: 35%;
+    }
+
+    .green-ul {
+        width: 400px;
+    }
+    
+    .date-ticket {
+        display: block;
+        text-align: center;
+    }
+
+    .ticket-info {
+        width: 100%;
+    }
+
+    .ticket-info p {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .ticket-info h3 {
+        text-align: center;
+    }
+
+    .img-new::before {
+        width: 0px;
+        height: 0px;
+    }
+
+    .text-new h2::before {
+        left: 50%;
+        width: 0px;
+        height: 0px;
+    }
+
+    .green-info h2 {
+        font-size: 59px;
+    }
+
+    .ul-info {
+        display: block;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .concert-info .p {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .title-footer ul {
+        margin-bottom: 20px;
+    }
+
+    .text-new p {
+        max-width: 400px;
+    }
+
+    .title-artist h2 {
+        font-size: 59px;
+    }
+
+    .text-new h2 span:nth-child(1) {
+        display: none;
+    }
+
+    .text-new h2 span:nth-child(2) {
+        display: none;
+    }
+
+    .title-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .green-footer .wrapper {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .green-info h2 {
+        max-width: 320px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .green-ul p {
+        max-width: 320px;
+    }
+
+    .green-ul {
+        width: 320px;
+    }
+
+    .header-title {
+        width: 320px;
+    }
+
+    h1 {
+        font-size: 59px;
+    }
+
+    .time-star p {
+        width: 320px;
+    }
+
+    .title-artist p {
+        width: 320px;
+    }
+
+    .title-artist img {
+        margin-bottom: 50px;
+    }
+
+    .clothing-title h2 {
+        font-size: 59px;
+    }
+
+    .green-info {
+        
+    }
 }
