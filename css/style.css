@@ -16,7 +16,7 @@ header {
 header .wrapper {
     padding-top: 217px;
     padding-bottom: 165px;
-    max-width: 1180px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -26,6 +26,7 @@ header .wrapper img {
 
 .header-info {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-title {
@@ -114,6 +115,7 @@ h1 {
 .time {
     padding-left: 88px;
     padding-top: 175px;
+    width: 350px;
 }
 
 .time ul {
@@ -767,9 +769,19 @@ hr {
 }
 
 @media screen and (max-width:1360px) {
-    .wrapper {
-        max-width: 1120px;
-        margin: 0 auto;
+    .time {
+        padding-top: 70px;
+    }
+
+    header .wrapper img {
+        margin-left: 6px;
+        width: 200px;
+        height: 100%;
+    }
+
+    .header-title {
+        padding-top: unset;
+        margin-right: unset;
     }
 
     .text-new h2::before {
@@ -806,19 +818,26 @@ hr {
 }
 
 @media screen and (max-width:1024px) {
-    .header-title {
-        margin-right: 0px;
+    h1 {
+        font-size: 59px;
+    }
+
+    .time .before {
+        min-width: 20%;
+    }
+
+    .time .before-two {
+        min-width: 20%;
+    }
+
+    .time {
+        width: 100%;
     }
 
     .img-new {
         margin-right: 0px;
     }
-
-    header .wrapper img {
-        width: 248px;
-        height: 300px;
-    }
-
+    
     .header-title {
         padding-top: 0px;
     }
@@ -858,12 +877,30 @@ hr {
 
     header .wrapper {
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 130px;
     }
 
     .header-info {
-        display: block;
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .time {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .time .before {
+        width: 20%;
+    }
+
+    .time .before-two {
+        width: 20%;
+    }
+
+    .time p {
+        width: unset;
+        margin-bottom: unset;
     }
 
     .header-title {
@@ -902,6 +939,20 @@ hr {
 }
 
 @media screen and (max-width:768px) {
+
+    .green-info .wrapper {
+        width: 85%;
+    }
+
+    .header-info {
+        display: block;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
     .img-text figcaption {
         display: block;
     }
@@ -948,6 +999,28 @@ hr {
 }
 
 @media screen and (max-width:600px) {
+    .time {
+        display: inline-block;
+    }
+
+    .time .before {
+        width: 40%;
+    }
+
+    .before::before {
+        left: 2%;
+        top: 40%;
+    }
+
+    .before-two::before {
+        left: 2%;
+        top: 40%;
+    }
+
+    .time .before-two {
+        width: 40%;
+    }
+
     .new-info .wrapper {
         display: block;
         text-align: center;
@@ -974,16 +1047,6 @@ hr {
     .text-new h2::before {
         top: -35%;
         left: 82%;
-    }
-
-    .time {
-        max-width: 300px;
-        margin: 0 auto;
-        text-align: left;
-    }
-
-    .time .before {
-        margin-bottom: 25px;
     }
 
     .title-artist p {
@@ -1075,6 +1138,11 @@ hr {
 }
 
 @media screen and (max-width:425px) {
+    .header-title p {
+        width: 85%;
+        margin: 0 auto;
+    }
+
     .green-info h2 {
         max-width: 320px;
     }
@@ -1084,15 +1152,15 @@ hr {
     }
 
     .green-ul p {
-        max-width: 320px;
+        max-width: 300px;
     }
 
     .green-ul {
-        width: 320px;
+        width: 300px;
     }
 
     .header-title {
-        width: 320px;
+        width: 275px;
     }
 
     h1 {
